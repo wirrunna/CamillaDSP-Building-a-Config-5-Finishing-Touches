@@ -27,17 +27,19 @@ The Pipeline showing the Biquad group of EQ filters in the input
 ![alt text](<Images/CamillaDSP GUI Pipeline plot collapsed.jpg>)
 
 ### Add "Tone Control" filters. 
-CamillaDSP has two special biquad filters, one called "Bass" and the other "Treble" that are user configured and can act as old fashioned tone controls or can be used to add a "house curve". They appear on the GUI under the "Shortcuts" tab and must be applied and saved for them to take effect. 
+CamillaDSP has two special biquad filters, one called "Bass" and the other "Treble" that are user configured and can act as old fashioned tone controls or can be used to add a "house curve". They appear on the GUI under the "Shortcuts" tab as sliders and like the Volume control slider take effect immediately.
 
 CamillaDSP suggests Bass : Lowshelf, Frequency=85Hz, Q=0.9 
 and Treble : Highshelf, Frequency=6500Hz, Q-=0.7 .
 ![alt text](<Images/CamillaDSP GUI Shortcuts.jpg>)
 
 
-I like the Harman curve for loudspeakers and so set 
+I like the Harman curve for loudspeakers and so set the filters to -
 Bass : Lowshelf, Gain=5db, Frequency=90Hz, Slope=12db/oct and 
 Treble : Peaking, Gain=2db, Frequency=22,000Hz, Slope=3db.
 
-Add a jpg of All SPL - flat response, Bass +6 Hi -3 
+I run my system with a 10.1" touch screen so can tickle the tone controls depending on the music. See https://github.com/wirrunna/CamillaDSP-an-implemantation
+
+*** Add a jpg of All SPL - flat response, then with Bass +6 Hi -3 
 
 https://www.audiosciencereview.com/forum/index.php?threads/a-collection-of-speaker-target-responses-in-csv-txt-format.16401/
