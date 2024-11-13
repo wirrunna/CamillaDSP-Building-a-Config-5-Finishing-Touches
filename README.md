@@ -21,6 +21,15 @@ These filters are saved and then imported into the Config file, here is a sectio
 Here is a REW sweep with the input PEQs/Biquad filters applied
 ![alt text](<Images/Jun 23 5 T45_A67 FS 77db new pf input peqs.jpg>)
 
+Impulse (Step Response) shows a tiny bit of pre ringing
+![alt text](<Images/Jun 23 5 T45_A67 FS 77db new pf input peqs Impulse step resp.jpg>)
+
+Group Delay (GD)
+![alt text](<Images/Jun 23 5 T45_A67 FS 77db new pf input peqs GD.jpg>)
+
+and finally the Spectrogram
+![alt text](<Images/Jun 23 5 T45_A67 FS 77db new pf input peqs Spectro.jpg>)
+
 
 
 The Pipeline showing the Biquad group of EQ filters in the input
